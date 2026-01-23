@@ -1,0 +1,12 @@
+site_name: Python cursus
+theme:
+  name: material
+  language: nl
+
+nav:
+  - Start: index.md
+  - Stap 1 Basis: 01_variabelen/variabelen.md      
+  - Stap 2 Expressies: 02_expressies/stap_2_expressies_en_berekeningen_in_python.md
+  - Stap 3 Input en output: 03_input_output/stap_3_input_en_output_python.md
+  - Stap 4 Beslissingen: 04_beslissingen/stap_4_beslissingen.md
+
