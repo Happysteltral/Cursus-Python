@@ -1,224 +1,180 @@
-# Hoofdstuk 1 – Variabelen in Python
+# Stap 1 – Variabelen in Python
 
-## 🎯 Leerdoelen
+## 1.1 Wat is een variabele?
 
-Na dit hoofdstuk kan je:
+!!! note "Concept"
+    Een **variabele** is een naam die verwijst naar een waarde die in het geheugen wordt opgeslagen.
+    
+    Je kan het zien als een **doosje met een label**:
+    - het label = de naam van de variabele
+    - de inhoud = de waarde
 
-* uitleggen wat een variabele is
-* een variabele correct aanmaken in Python
-* variabelen gebruiken in berekeningen en tekst
-* veelgemaakte fouten met variabelen herkennen
-
----
-
-## 1️⃣ Wat is een variabele?
-
-Stel je voor dat je een **doos** hebt met een **label** erop.
-In die doos zit een waarde.
-
-* 📦 doos = plaats in het geheugen van de computer
-* 🏷️ label = naam van de variabele
-* 🔢 inhoud = de waarde
-
-In Python noemen we zo’n gelabelde doos een **variabele**.
-
-👉 **Definitie**
-Een *variabele* is een naam die verwijst naar een waarde die de computer bijhoudt.
-
----
-
-## 2️⃣ Een eerste variabele maken
-
-In Python maak je een variabele zo:
+Voorbeeld:
 
 ```python
 leeftijd = 16
 ```
 
-Wat gebeurt hier?
-
-* `leeftijd` → naam van de variabele
-* `=` → toekenning ("krijgt de waarde")
-* `16` → de waarde
-
-🧠 Lees dit als:
-
-> *leeftijd krijgt de waarde 16*
+Hier maken we een variabele met de naam `leeftijd` en geven we die de waarde `16`.
 
 ---
 
-## 3️⃣ Variabelen gebruiken
+## 1.2 Waarom gebruiken we variabelen?
 
-Je kan een variabele gebruiken in berekeningen:
+!!! info
+    Variabelen maken je programma:
+    - leesbaarder
+    - flexibeler
+    - makkelijker aan te passen
+
+Vergelijk:
+
+```python
+print(16)
+```
+
+met:
 
 ```python
 leeftijd = 16
-volgend_jaar = leeftijd + 1
-print(volgend_jaar)
+print(leeftijd)
 ```
 
-👉 Uitvoer:
-
-```
-17
-```
-
-De computer **onthoudt** dus de waarde van `leeftijd`.
+👉 In het tweede voorbeeld is meteen duidelijk **wat** die 16 betekent.
 
 ---
 
-## 4️⃣ Variabelen en tekst (strings)
+## 1.3 Namen van variabelen
 
-Niet alle variabelen zijn getallen. Je kan ook **tekst** opslaan.
+!!! tip "Goede gewoontes"
+    - Gebruik duidelijke namen
+    - Start met een kleine letter
+    - Gebruik geen spaties
+    - Gebruik `_` als scheiding
+
+Voorbeelden:
 
 ```python
 naam = "Alex"
-print(naam)
+geboortejaar = 2008
+is_ingelogd = True
 ```
 
-⚠️ Let op:
+!!! warning "Let op"
+    Deze namen zijn **fout of slecht gekozen**:
 
-* Tekst staat **altijd tussen aanhalingstekens** (`" "` of `' '`)
-* Zonder aanhalingstekens denkt Python dat het een variabele is
-
-Fout voorbeeld:
-
-```python
-naam = Alex   # ❌ fout
-```
+    ```python
+    2naam = "Alex"   # mag niet starten met een cijfer
+    mijn naam = "Alex"  # spaties zijn niet toegelaten
+    print = 5         # overschrijft een Python-functie
+    ```
 
 ---
 
-## 5️⃣ Verschillende soorten variabelen (datatypes)
+## 1.4 Waarden aanpassen
 
-| Type    | Voorbeeld           | Betekenis        |
-| ------- | ------------------- | ---------------- |
-| `int`   | `leeftijd = 16`     | geheel getal     |
-| `float` | `prijs = 12.5`      | kommagetal       |
-| `str`   | `naam = "Alex"`     | tekst            |
-| `bool`  | `is_student = True` | waar / niet waar |
-
-💡 Python kiest automatisch het juiste type.
-
----
-
-## 6️⃣ Variabelen overschrijven
-
-Een variabele kan **veranderen**:
+Een variabele kan tijdens het uitvoeren van het programma **van waarde veranderen**.
 
 ```python
 score = 10
+print(score)
+
 score = 15
 print(score)
 ```
 
-👉 Uitvoer:
-
-```
-15
-```
-
-⚠️ De oude waarde (10) is weg.
+👉 De **laatste toekenning** telt.
 
 ---
 
-## 7️⃣ Regels voor variabelenamen
+## 1.5 Soorten waarden (datatypes)
 
-✅ Wel toegelaten:
+!!! note "Belangrijk"
+    Python bepaalt automatisch het **datatype** van een variabele.
+
+| Type | Voorbeeld | Betekenis |
+|----|----|----|
+| `int` | `10` | geheel getal |
+| `float` | `3.14` | kommagetal |
+| `str` | `"Hallo"` | tekst |
+| `bool` | `True`, `False` | waar / onwaar |
+
+Voorbeelden:
 
 ```python
-leeftijd
-studentNaam
-score_1
-```
-
-❌ Niet toegelaten:
-
-```python
-1score      # begint met cijfer
-voornaam!  # speciaal teken
-for         # gereserveerd woord
-```
-
-📌 Tips:
-
-* gebruik **duidelijke namen**
-* schrijf in **kleine letters**
-* gebruik `_` voor leesbaarheid
-
----
-
-## 8️⃣ Variabelen en input van de gebruiker
-
-Je kan een waarde vragen aan de gebruiker:
-
-```python
-naam = input("Wat is je naam? ")
-print(naam)
-```
-
-⚠️ Alles wat je via `input()` krijgt is **tekst** en dus van het type **string**.
-
-Voor getallen:
-
-```python
-leeftijd = int(input("Wat is je leeftijd? "))
+aantal = 5
+prijs = 2.5
+naam = "Sam"
+is_geldig = True
 ```
 
 ---
 
-## 🧠 Test jezelf
+## 1.6 Afdrukken met `print()`
 
-Wat doet deze code?
+!!! example "Voorbeeld"
+    ```python
+    naam = "Alex"
+    leeftijd = 16
+    print(naam)
+    print(leeftijd)
+    ```
 
-```python
-x = 5
-y = x + 3
-x = 10
-print(y)
-```
-
-➡️ Antwoord: `8`
-
----
-
-## ✍️ Oefeningen
-
-### Oefening 1 – Basis
-
-Maak een variabele `voornaam` en print deze.
+!!! tip
+    Gebruik `print()` vaak tijdens het programmeren om te zien wat je code doet.
 
 ---
 
-### Oefening 2 – Rekenen
+## 1.7 Veelgemaakte fouten
 
-* Maak een variabele `breedte`
-* Maak een variabele `hoogte`
-* Bereken de oppervlakte
-
----
-
-### Oefening 3 – Input
-
-Vraag de leeftijd van de gebruiker en print:
-
-> "Volgend jaar ben je ... jaar"
+!!! warning
+    - Variabele gebruiken zonder ze eerst te maken
+    - Namen door elkaar gebruiken (`Leeftijd` ≠ `leeftijd`)
+    - Denken dat een variabele haar oude waarde onthoudt na overschrijven
 
 ---
 
-## 🚀 Mini-uitdaging (optioneel)
+## 1.8 🧠 Test jezelf
 
-Vraag de naam en leeftijd van de gebruiker en print:
+??? question "Wat doet deze code?"
+    ```python
+    x = 3
+    y = x
+    x = 7
+    print(y)
+    ```
 
-> "Hallo Alex, jij bent 16 jaar."
+    ??? success "Toon antwoord"
+        **Antwoord:** `3`
+
+        `y` krijgt de waarde van `x` op het moment van toekennen.
+        De latere wijziging van `x` heeft geen invloed meer op `y`.
 
 ---
 
-## 📌 Samenvatting
+## 1.9 Oefeningen
 
-* Een variabele bewaart een waarde
-* Je maakt ze met `=`
-* Python kiest automatisch het type
-* Goede namen maken je code leesbaar
+### Oefening 1
+Maak een variabele `naam` en geef ze je voornaam. Druk deze af.
 
-➡️ In het volgende hoofdstuk leren we **rekenen en expressies** met variabelen.
+### Oefening 2
+Maak een variabele `leeftijd` en druk af:
+> Ik ben ___ jaar oud
+
+### Oefening 3
+Maak twee variabelen en verwissel hun waarden.
+
+---
+
+## 1.10 Samenvatting
+
+!!! summary
+    - Een variabele slaat een waarde op
+    - Je gebruikt `=` om een waarde toe te kennen
+    - Python bepaalt automatisch het datatype
+    - De laatste toekenning telt
+
+---
+
+➡️ **Volgende stap:** expressies en berekeningen
+

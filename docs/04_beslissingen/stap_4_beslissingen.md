@@ -1,36 +1,39 @@
 # Stap 4 – Beslissingen nemen met `if`, `elif` en `else`
 
 ## 4.1 Waarom beslissingen nemen?
-Tot nu toe voert ons programma **altijd dezelfde stappen** uit. Slimme programma’s kunnen echter:
-- situaties **vergelijken**
-- **keuzes maken** op basis van voorwaarden
 
-👉 In deze stap leert je programma **denken in ja/nee-vragen**.
+!!! note "Concept"
+    Met **beslissingen** kan een programma **verschillend gedrag vertonen** afhankelijk van een situatie.
 
-Voorbeeld uit het echte leven:
-> Als het regent → neem een paraplu
-> Anders → geen paraplu nodig
+In het echte leven:
+- als het regent → paraplu
+- anders → geen paraplu
+
+👉 In Python doen we dit met `if`, `elif` en `else`.
 
 ---
 
 ## 4.2 De `if`-structuur
 
-### 4.2.1 Basisvorm
+!!! example "Voorbeeld"
+    ```python
+    leeftijd = 18
 
-```python
-leeftijd = 18
+    if leeftijd >= 18:
+        print("Je bent meerderjarig")
+    ```
 
-if leeftijd >= 18:
-    print("Je bent meerderjarig")
-```
-
-🔹 De voorwaarde moet **waar (`True`) of onwaar (`False`)** zijn.
-🔹 De dubbele punt `:` is verplicht.
-🔹 De code **onder de if** moet ingesprongen zijn (indentatie).
+!!! note "Belangrijk"
+    - De voorwaarde moet `True` of `False` zijn
+    - De dubbele punt `:` is verplicht
+    - Alles onder de `if` moet **ingesprongen** zijn
 
 ---
 
 ## 4.3 Vergelijkingsoperatoren
+
+!!! info
+    Deze operatoren gebruik je in voorwaarden:
 
 | Operator | Betekenis |
 |--------|----------|
@@ -50,59 +53,64 @@ if score >= 10:
 
 ---
 
-## 4.4 `else` – wat als de voorwaarde niet klopt?
+## 4.4 `else` – het andere geval
 
-```python
-leeftijd = 15
+!!! example "Voorbeeld"
+    ```python
+    leeftijd = 15
 
-if leeftijd >= 18:
-    print("Je bent meerderjarig")
-else:
-    print("Je bent minderjarig")
-```
+    if leeftijd >= 18:
+        print("Je bent meerderjarig")
+    else:
+        print("Je bent minderjarig")
+    ```
 
-👉 `else` wordt uitgevoerd **als de if-voorwaarde onwaar is**.
+!!! note
+    `else` wordt uitgevoerd als de `if`-voorwaarde **onwaar** is.
 
 ---
 
 ## 4.5 Meerdere keuzes met `elif`
 
-```python
-score = 14
+!!! example "Voorbeeld"
+    ```python
+    score = 14
 
-if score >= 16:
-    print("Zeer goed")
-elif score >= 12:
-    print("Goed")
-elif score >= 10:
-    print("Voldoende")
-else:
-    print("Onvoldoende")
-```
+    if score >= 16:
+        print("Zeer goed")
+    elif score >= 12:
+        print("Goed")
+    elif score >= 10:
+        print("Voldoende")
+    else:
+        print("Onvoldoende")
+    ```
 
-🔹 `elif` = *else if*
-🔹 Python test de voorwaarden **van boven naar beneden**
+!!! tip
+    Python test de voorwaarden **van boven naar beneden**.
 
 ---
 
 ## 4.6 Combineren met input
 
-```python
-leeftijd = int(input("Wat is je leeftijd? "))
+!!! example "Voorbeeld"
+    ```python
+    leeftijd = int(input("Wat is je leeftijd? "))
 
-if leeftijd < 12:
-    print("Kind")
-elif leeftijd < 18:
-    print("Jongere")
-else:
-    print("Volwassene")
-```
+    if leeftijd < 12:
+        print("Kind")
+    elif leeftijd < 18:
+        print("Jongere")
+    else:
+        print("Volwassene")
+    ```
 
 ---
 
 ## 4.7 Logische operatoren
 
-Je kan voorwaarden combineren met:
+!!! info
+    Je kan voorwaarden combineren:
 
 | Operator | Betekenis |
 |--------|----------|
@@ -123,27 +131,43 @@ if leeftijd < 18 and heeft_toestemming:
 
 ## 4.8 Veelgemaakte fouten
 
-| Fout | Uitleg |
-|----|------|
-| `=` gebruiken i.p.v. `==` | `=` is toekennen, `==` vergelijken |
-| Verkeerde indentatie | Python is hier streng in |
-| Voorwaarden in verkeerde volgorde | Eerst meest specifieke testen |
+!!! warning
+    - `=` gebruiken in plaats van `==`
+    - Verkeerde indentatie
+    - Voorwaarden in foute volgorde testen
 
 ---
 
-## 4.9 Oefeningen
+## 4.9 🧠 Test jezelf
+
+??? question "Wat wordt er afgedrukt?"
+    ```python
+    x = 5
+
+    if x > 10:
+        print("A")
+    elif x > 3:
+        print("B")
+    else:
+        print("C")
+    ```
+
+    ??? success "Toon antwoord"
+        **Antwoord:** `B`
+
+        `x > 10` is onwaar, `x > 3` is waar.
+
+---
+
+## 4.10 Oefeningen
 
 ### Oefening 1 – Even of oneven
 Vraag een getal en toon of het **even of oneven** is.
-
----
 
 ### Oefening 2 – Punten
 Vraag een score op 20 en toon:
 - Geslaagd (≥ 10)
 - Niet geslaagd (< 10)
-
----
 
 ### Oefening 3 – Leeftijdscategorie
 Vraag de leeftijd en toon:
@@ -151,25 +175,23 @@ Vraag de leeftijd en toon:
 - jongere
 - volwassene
 
----
-
-### Oefening 4 – Mini-project
+### Oefening 4 – Mini-toepassing
 Maak een programma dat:
 1. een wachtwoord vraagt
-2. controleert of het gelijk is aan een vast wachtwoord
-3. een correcte of foute melding toont
+2. controleert of het correct is
+3. een gepaste melding toont
 
 ---
 
-## 4.10 Samenvatting
+## 4.11 Samenvatting
 
-- `if` controleert een voorwaarde
-- `else` vangt het andere geval op
-- `elif` laat meerdere keuzes toe
-- Voorwaarden gebruiken vergelijkingsoperatoren
-- Correcte indentatie is cruciaal
+!!! summary
+    - `if` test een voorwaarde
+    - `else` vangt het andere geval op
+    - `elif` laat meerdere keuzes toe
+    - Correcte indentatie is cruciaal
 
 ---
 
-➡️ **Volgende stap:** herhaling met lussen (`while` en `for`)
+➡️ **Volgende stap:** herhaling en lussen (`while` en `for`)
 
