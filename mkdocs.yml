@@ -1,4 +1,5 @@
 site_name: Python cursus
+site_url: https://HappySteltral.github.io/Cursus-Python/
 theme:
   name: material
   language: nl
