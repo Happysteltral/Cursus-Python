@@ -4,11 +4,21 @@ theme:
   language: nl
 
 nav:
-  - Start: index.md
-  - Stap 1 Basis: 01_variabelen/variabelen.md      
-  - Stap 2 Expressies: 02_expressies/stap_2_expressies_en_berekeningen_in_python_met_admonitions.md
-  - Stap 3 Input en output: 03_input_output/stap_3_input_en_output_python.md
-  - Stap 4 Beslissingen: 04_beslissingen/stap_4_beslissingen.md
+  - Cursus:
+    - Start: cursus/index.md
+    - Stap 1 Basis: cursus/01_variabelen/variabelen.md      
+    - Stap 2 Expressies: cursus/02_expressies/stap_2_expressies.md
+    - Stap 3 Input en output: cursus/03_input_output/stap_3_input_en_output.md
+    - Stap 4 Beslissingen: cursus/04_beslissingen/stap_4_beslissingen.md
+  - Opgavenbank:
+    - overzicht: opgaven/index.md
+    - Python Basis:
+      - Variabelen : opgaven/python_basis/basis_oefeningen_stap_1_variabelen.md
+      - Expressies : opgaven/python_basis/basis_oefeningen_stap_2_expressies.md 
+    #  5 ICW:
+    #       - Basis: opgaven/5ICW/basis.md
+    # - 6 ICW:
+    #       - Uitdaging: opgaven/6ICW/uitdaging.md
 
 markdown_extensions:
   - admonition
