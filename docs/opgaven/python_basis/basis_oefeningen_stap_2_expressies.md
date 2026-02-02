@@ -16,7 +16,7 @@ Bereken de som en druk het resultaat af.
 
 ### Oefening 2: Basisbewerkingen
 Maak twee variabelen `x` en `y`.
-Bereken en toon:
+Bereken en print:
 - de som
 - het verschil
 - het product

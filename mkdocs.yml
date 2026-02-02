@@ -5,14 +5,14 @@ theme:
   language: nl
 
 nav:
-  - Cursus:
-    - Start: cursus/index.md
+  - Start: index.md
+  - Cursus:    
     - Stap 1 Basis: cursus/01_variabelen/variabelen.md      
     - Stap 2 Expressies: cursus/02_expressies/stap_2_expressies.md
     - Stap 3 Input en output: cursus/03_input_output/stap_3_input_en_output.md
     - Stap 4 Beslissingen: cursus/04_beslissingen/stap_4_beslissingen.md
   - Opgavenbank:
-    - overzicht: opgaven/index.md
+    # - overzicht: opgaven/index.md
     - Python Basis:
       - Variabelen : opgaven/python_basis/basis_oefeningen_stap_1_variabelen.md
       - Expressies : opgaven/python_basis/basis_oefeningen_stap_2_expressies.md 
