@@ -7,8 +7,8 @@ theme:
 nav:
   - Start: index.md
   - Cursus:    
-    - Stap 1 Basis: cursus/01_variabelen/variabelen.md      
-    - Stap 2 Expressies: cursus/02_expressies/stap_2_expressies.md
+    - Stap 1 Expressies: cursus/01_expressies/stap_1_expressies.md
+    - Stap 2 Basis: cursus/02_variabelen/variabelen.md
     - Stap 3 Input en output: cursus/03_input_output/stap_3_input_en_output.md
     - Stap 4 Beslissingen: cursus/04_beslissingen/stap_4_beslissingen.md
   - Opgavenbank:

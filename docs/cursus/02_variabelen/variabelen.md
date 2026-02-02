@@ -12,10 +12,11 @@
 Voorbeeld:
 
 ```python
-leeftijd = 16
+x = 5
+print ( x )
 ```
 
-Hier maken we een variabele met de naam `leeftijd` en geven we die de waarde `16`.
+Hier maken we een variabele met de naam `x` en geven we die de waarde `5`. Als we met getallen werken, noemen we dit een **toekenning**. we gebruiken, net zoals in wiskunde vaak x en y als variabelen.
 
 ---
 

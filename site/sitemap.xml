@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://HappySteltral.github.io/Cursus-Python/cursus/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://HappySteltral.github.io/Cursus-Python/</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/cursus/01_variabelen/variabelen/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/cursus/02_expressies/stap_2_expressies/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/cursus/03_input_output/stap_3_input_en_output/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/cursus/04_beslissingen/stap_4_beslissingen/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/opgaven/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/opgaven/python_basis/basis_oefeningen_stap_1_variabelen/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
          <loc>https://HappySteltral.github.io/Cursus-Python/opgaven/python_basis/basis_oefeningen_stap_2_expressies/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <lastmod>2026-02-02</lastmod>
     </url>
 </urlset>
