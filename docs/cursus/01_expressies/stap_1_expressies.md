@@ -2,7 +2,7 @@
 
 ## 1.1 Wat is een expressie?
 
-!!! note "Concept"
+!!! note "Theorie"
     Een **expressie** is een combinatie van waarden, variabelen en operatoren die samen **een nieuwe waarde opleveren**.
 
 Voorbeelden van expressies:
@@ -50,7 +50,7 @@ print(22 // 3)  # Je krijgt 6 in je terminal, alles achter de komma wordt weggel
 print(22 % 3)  # Je krijgt 1 in je terminal, want 3 past 7 keer in 22 met een rest van 1
 # Machten
 print(3 ** 4)  # Je krijgt 81 in je terminal.
-
+```
 ## 1.4 Volgorde van bewerkingen
 
 !!! note "Belangrijk"
@@ -79,7 +79,7 @@ print(resultaat)  # 16
 ---
 
 ## 1.5 Datatypes
-!!! note "Concept"
+!!! note "Theorie"
     In Python zijn er verschillende **datatypes** die bepalen welk soort waarde je gebruikt.
 | Type | Voorbeeld | Betekenis |
 |----|----|----|
@@ -87,7 +87,6 @@ print(resultaat)  # 16
 | `float` | `3.14` | kommagetal |
 | `str` | `"Hallo"` | tekst |
 | `bool` | `True`, `False` | waar / onwaar |
-Voorbeelden:
 
 
 ## 1.6 Veelgemaakte fouten
@@ -119,7 +118,7 @@ Voorbeelden:
 
 ## 1.8 String expressies
 
-!!! note "Concept"
+!!! note "Theorie"
     Strings (tekst) kunnen ook gecombineerd worden met expressies, maar niet allemaal.
     
 We kunnen strings **samenvoegen** met de `+` operator:
