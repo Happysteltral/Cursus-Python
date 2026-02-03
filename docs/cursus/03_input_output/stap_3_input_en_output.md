@@ -16,6 +16,7 @@ Zonder input en output kan een programma niet communiceren.
     ```python
     print("Hallo wereld")
     ```
+    Deze code toont de tekst "Hallo wereld" op het scherm. Dit is het eerste programma dat veel mensen leren!
 
 Je kan ook variabelen afdrukken:
 
@@ -30,23 +31,11 @@ print(leeftijd)
 
 ## 3.3 Tekst en variabelen combineren
 
-!!! warning "Let op"
-    Je kan **geen tekst en getallen rechtstreeks optellen**.
+Je wilt vaak tekst en variabelen samen tonen. Bijvoorbeeld: "Ik ben 16 jaar".
 
-❌ Fout:
-```python
-leeftijd = 16
-print("Ik ben " + leeftijd + " jaar")
-```
-
-✅ Oplossing 1 – komma’s:
+✅ eerste manier:
 ```python
 print("Ik ben", leeftijd, "jaar")
-```
-
-✅ Oplossing 2 – `str()`:
-```python
-print("Ik ben " + str(leeftijd) + " jaar")
 ```
 
 ---
@@ -54,13 +43,13 @@ print("Ik ben " + str(leeftijd) + " jaar")
 ## 3.4 f-strings (aanbevolen)
 
 !!! tip "Goede gewoonte"
-    Gebruik **f-strings** om tekst en variabelen netjes te combineren.
+    Gebruik **f-strings** om tekst en variabelen netjes te combineren. De f staat voor formatted (opgemaakt).
 
 ```python
 print(f"Ik ben {leeftijd} jaar")
 ```
 
-👉 Alles tussen `{ }` wordt automatisch omgezet naar tekst.
+👉 Alles tussen `{ }` wordt automatisch omgezet naar tekst (string).
 
 ---
 
@@ -100,7 +89,7 @@ print(f"Volgend jaar ben je {volgend_jaar} jaar")
 ## 3.7 Getallen omzetten
 
 !!! info
-    Gebruik deze functies om tekst om te zetten:
+    Gebruik deze "type casting" functies om tekst om te zetten:
 
 | Functie | Resultaat |
 |------|---------|
@@ -130,31 +119,31 @@ prijs = float(input("Prijs? "))
         `input()` levert tekst op, dus `+` betekent hier samenvoegen.
 
 ---
+#3.10 Debuggen met variabelen 
+!!! tip "Debuggen"
+    Als je code niet werkt zoals verwacht, kan je tussentijds variabelen afdrukken om te zien wat er misgaat.
 
-## 3.9 Oefeningen
+Een veelvoorkomende oorzaak van functionele fouten in programma’s is dat variabelen
+blijken niet de waardes te bevatten waarvan je dacht dat ze ze bevatten. Een goede manier
+om je code te “debuggen” (dat wil zeggen, uit te vinden waar in je code fouten staan en
+die te verbeteren) is het printen van variabele namen op geschikte plaatsen. Bijvoorbeeld:
 
-### Oefening 1 – Begroeting
-Vraag de naam van de gebruiker en toon een begroeting.
+```python
+nr1 = 5
+nr2 = 4
+nr3 = 5
+print( nr3 / (nr1 % nr2) )
+nr1 = nr1 + 1
+print( nr3 / (nr1 % nr2) )
+nr1 = nr1 + 1
+print( nr3 / (nr1 % nr2) )
+nr1 = nr1 + 1
+print( nr3 / (nr1 % nr2) )
+## Dit programma veroorzaakt een foutmelding bij de derde print-opdracht.
+```
+Er zijn beter manieren om te debuggen, maar die zien we later in de cursus.
 
-### Oefening 2 – Leeftijd
-Vraag de leeftijd en toon hoe oud de gebruiker volgend jaar is.
-
-### Oefening 3 – Rekenmachine
-Vraag twee getallen en toon:
-- de som
-- het verschil
-- het product
-
-### Oefening 4 – Mini-toepassing
-Maak een programma dat:
-1. de naam vraagt
-2. het geboortejaar vraagt
-3. de leeftijd berekent
-4. een zin toont met f-string
-
----
-
-## 3.10 Samenvatting
+## 3.11 Samenvatting
 
 !!! summary
     - `print()` toont output

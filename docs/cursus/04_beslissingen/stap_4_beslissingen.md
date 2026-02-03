@@ -3,7 +3,7 @@
 ## 4.1 Waarom beslissingen nemen?
 
 !!! note "Concept"
-    Met **beslissingen** kan een programma **verschillend gedrag vertonen** afhankelijk van een situatie.
+    Met **beslissingen** kan een programma **verschillend gedrag vertonen** afhankelijk van een situatie. Vaak moet je een if statement gebruiken als je "als ... dan ..." logica leest in de opdracht.
 
 In het echte leven:
 - als het regent → paraplu
@@ -24,9 +24,9 @@ In het echte leven:
     ```
 
 !!! note "Belangrijk"
-    - De voorwaarde moet `True` of `False` zijn
+    - De voorwaarde moet `True` of `False` zijn, boolean waarde.
     - De dubbele punt `:` is verplicht
-    - Alles onder de `if` moet **ingesprongen** zijn
+    - Alles onder de `if` moet **ingesprongen of indentatie** zijn.
 
 ---
 
@@ -50,7 +50,6 @@ score = 12
 if score >= 10:
     print("Geslaagd")
 ```
-
 ---
 
 ## 4.4 `else` – het andere geval
@@ -132,7 +131,7 @@ if leeftijd < 18 and heeft_toestemming:
 ## 4.8 Veelgemaakte fouten
 
 !!! warning
-    - `=` gebruiken in plaats van `==`
+    - `=` gebruiken in plaats van `==`. Dit zijn 2 verschillende dingen!
     - Verkeerde indentatie
     - Voorwaarden in foute volgorde testen
 
@@ -155,35 +154,10 @@ if leeftijd < 18 and heeft_toestemming:
     ??? success "Toon antwoord"
         **Antwoord:** `B`
 
-        `x > 10` is onwaar, `x > 3` is waar.
+        `x > 10` is onwaar, `x > 3` is waar, else wordt niet meer uitgevoerd.
 
 ---
-
-## 4.10 Oefeningen
-
-### Oefening 1 – Even of oneven
-Vraag een getal en toon of het **even of oneven** is.
-
-### Oefening 2 – Punten
-Vraag een score op 20 en toon:
-- Geslaagd (≥ 10)
-- Niet geslaagd (< 10)
-
-### Oefening 3 – Leeftijdscategorie
-Vraag de leeftijd en toon:
-- kind
-- jongere
-- volwassene
-
-### Oefening 4 – Mini-toepassing
-Maak een programma dat:
-1. een wachtwoord vraagt
-2. controleert of het correct is
-3. een gepaste melding toont
-
----
-
-## 4.11 Samenvatting
+## 4.10 Samenvatting
 
 !!! summary
     - `if` test een voorwaarde

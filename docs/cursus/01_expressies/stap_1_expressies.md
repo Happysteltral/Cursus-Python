@@ -127,7 +127,7 @@ We kunnen strings **samenvoegen** met de `+` operator:
 print( "tot"+"ziens" )
 print( 3* "hallo" )
 print( "tot ziens" *3 )
-
+```
 
 ## 1.9 Samenvatting
 
