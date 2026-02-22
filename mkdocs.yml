@@ -11,11 +11,15 @@ nav:
     - Stap 2 Basis: cursus/02_variabelen/variabelen.md
     - Stap 3 Input en output: cursus/03_input_output/stap_3_input_en_output.md
     - Stap 4 Beslissingen: cursus/04_beslissingen/stap_4_beslissingen.md
+    - Stap 5 Lussen: cursus/05_lussen/stap_5_lussen.md
   - Opgavenbank:
     # - overzicht: opgaven/index.md
     - Python Basis:
       - Variabelen : opgaven/python_basis/basis_oefeningen_stap_1_variabelen.md
       - Expressies : opgaven/python_basis/basis_oefeningen_stap_2_expressies.md 
+      - Input en output : opgaven/python_basis/basis_oefeningen_stap_3_input_en_output.md
+      - Beslissingen : opgaven/python_basis/basis_oefeningen_stap_4_beslissingen.md
+      - Lussen : opgaven/python_basis/basis_oefeningen_stap_5_lussen.md
     #  5 ICW:
     #       - Basis: opgaven/5ICW/basis.md
     # - 6 ICW:
@@ -25,3 +29,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+# plugins:
+#   - search
+#   - pdf-export

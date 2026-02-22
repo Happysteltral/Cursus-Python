@@ -4,7 +4,7 @@ Welkom!
 In deze cursus leer je stap voor stap programmeren met Python.
 
 🎯 **Voor wie?**
-- Leerlingen secundair onderwijs
+- Leerlingen secundair onderwijs van Sjabi
 - Geen voorkennis nodig
 
 📘 **Wat leer je?**

@@ -1,6 +1,6 @@
-# Stap 1 – Variabelen in Python
+# Stap 2 – Variabelen in Python
 
-## 1.1 Wat is een variabele?
+## 2.1 Wat is een variabele?
 
 !!! note "Concept"
     Een **variabele** is een naam die verwijst naar een waarde die in het geheugen wordt opgeslagen.
@@ -20,7 +20,7 @@ Hier maken we een variabele met de naam `x` en geven we die de waarde `5`. Als w
 
 ---
 
-## 1.2 Waarom gebruiken we variabelen?
+## 2.2 Waarom gebruiken we variabelen?
 
 !!! info
     Variabelen maken je programma:
@@ -45,7 +45,7 @@ print(leeftijd)
 
 ---
 
-## 1.3 Namen van variabelen
+## 2.3 Namen van variabelen
 
 !!! tip "Goede gewoontes"
     - Gebruik duidelijke namen
@@ -72,7 +72,7 @@ is_ingelogd = True
 
 ---
 
-## 1.4 Waarden aanpassen
+## 2.4 Waarden aanpassen
 
 Een variabele kan tijdens het uitvoeren van het programma **van waarde veranderen**.
 
@@ -88,7 +88,7 @@ print(score)
 
 ---
 
-## 1.5 Soorten waarden (datatypes)
+## 2.5 Soorten waarden (datatypes)
 
 !!! note "Belangrijk"
     Python bepaalt automatisch het **datatype** van een variabele.
@@ -111,7 +111,7 @@ is_geldig = True
 
 ---
 
-## 1.6 Afdrukken met `print()`
+## 2.6 Afdrukken met `print()`
 
 !!! example "Voorbeeld"
     ```python
@@ -126,7 +126,7 @@ is_geldig = True
 
 ---
 
-## 1.7 Veelgemaakte fouten
+## 2.7 Veelgemaakte fouten
 
 !!! warning
     - Variabele gebruiken zonder ze eerst te maken
@@ -135,8 +135,7 @@ is_geldig = True
 
 ---
 
-## 1.8 🧠 Test jezelf
-
+## 2.8 🧠 Test jezelf
 ??? question "Wat doet deze code?"
     ```python
     x = 3
@@ -152,7 +151,7 @@ is_geldig = True
         De latere wijziging van `x` heeft geen invloed meer op `y`.
 
 ---
-
+## 2.9 Oefeningen
 ## 1.9 Oefeningen
 
 ### Oefening 1
@@ -167,7 +166,7 @@ Maak twee variabelen en verwissel hun waarden.
 
 ---
 
-## 1.10 Samenvatting
+## 2.10 Samenvatting
 
 !!! summary
     - Een variabele slaat een waarde op

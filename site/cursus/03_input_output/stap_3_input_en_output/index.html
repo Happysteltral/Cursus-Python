@@ -477,78 +477,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#39-oefeningen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.9 Oefeningen
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="3.9 Oefeningen">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#oefening-1-begroeting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 1 – Begroeting
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oefening-2-leeftijd" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 2 – Leeftijd
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oefening-3-rekenmachine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 3 – Rekenmachine
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oefening-4-mini-toepassing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 4 – Mini-toepassing
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#310-samenvatting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.10 Samenvatting
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -872,78 +800,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#39-oefeningen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.9 Oefeningen
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="3.9 Oefeningen">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#oefening-1-begroeting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 1 – Begroeting
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oefening-2-leeftijd" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 2 – Leeftijd
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oefening-3-rekenmachine" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 3 – Rekenmachine
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oefening-4-mini-toepassing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Oefening 4 – Mini-toepassing
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#310-samenvatting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3.10 Samenvatting
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -973,8 +829,9 @@
 <h2 id="32-output-tonen-met-print">3.2 Output tonen met <code>print()</code></h2>
 <div class="admonition example">
 <p class="admonition-title">Voorbeeld</p>
-<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hallo wereld&quot;</span><span class="p">)</span>
+<p><div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hallo wereld&quot;</span><span class="p">)</span>
 </code></pre></div>
+Deze code toont de tekst "Hallo wereld" op het scherm. Dit is het eerste programma dat veel mensen leren!</p>
 </div>
 <p>Je kan ook variabelen afdrukken:</p>
 <div class="highlight"><pre><span></span><code><span class="n">naam</span> <span class="o">=</span> <span class="s2">&quot;Alex&quot;</span>
@@ -984,29 +841,19 @@
 </code></pre></div>
 <hr />
 <h2 id="33-tekst-en-variabelen-combineren">3.3 Tekst en variabelen combineren</h2>
-<div class="admonition warning">
-<p class="admonition-title">Let op</p>
-<p>Je kan <strong>geen tekst en getallen rechtstreeks optellen</strong>.</p>
-</div>
-<p>❌ Fout:
-<div class="highlight"><pre><span></span><code><span class="n">leeftijd</span> <span class="o">=</span> <span class="mi">16</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ik ben &quot;</span> <span class="o">+</span> <span class="n">leeftijd</span> <span class="o">+</span> <span class="s2">&quot; jaar&quot;</span><span class="p">)</span>
-</code></pre></div></p>
-<p>✅ Oplossing 1 – komma’s:
+<p>Je wilt vaak tekst en variabelen samen tonen. Bijvoorbeeld: "Ik ben 16 jaar".</p>
+<p>✅ eerste manier:
 <div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ik ben&quot;</span><span class="p">,</span> <span class="n">leeftijd</span><span class="p">,</span> <span class="s2">&quot;jaar&quot;</span><span class="p">)</span>
-</code></pre></div></p>
-<p>✅ Oplossing 2 – <code>str()</code>:
-<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ik ben &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">leeftijd</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; jaar&quot;</span><span class="p">)</span>
 </code></pre></div></p>
 <hr />
 <h2 id="34-f-strings-aanbevolen">3.4 f-strings (aanbevolen)</h2>
 <div class="admonition tip">
 <p class="admonition-title">Goede gewoonte</p>
-<p>Gebruik <strong>f-strings</strong> om tekst en variabelen netjes te combineren.</p>
+<p>Gebruik <strong>f-strings</strong> om tekst en variabelen netjes te combineren. De f staat voor formatted (opgemaakt).</p>
 </div>
 <div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Ik ben </span><span class="si">{</span><span class="n">leeftijd</span><span class="si">}</span><span class="s2"> jaar&quot;</span><span class="p">)</span>
 </code></pre></div>
-<p>👉 Alles tussen <code>{ }</code> wordt automatisch omgezet naar tekst.</p>
+<p>👉 Alles tussen <code>{ }</code> wordt automatisch omgezet naar tekst (string).</p>
 <hr />
 <h2 id="35-input-vragen-met-input">3.5 Input vragen met <code>input()</code></h2>
 <div class="admonition example">
@@ -1038,7 +885,7 @@
 <h2 id="37-getallen-omzetten">3.7 Getallen omzetten</h2>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Gebruik deze functies om tekst om te zetten:</p>
+<p>Gebruik deze "type casting" functies om tekst om te zetten:</p>
 </div>
 <table>
 <thead>
@@ -1080,24 +927,29 @@
 </details>
 </details>
 <hr />
-<h2 id="39-oefeningen">3.9 Oefeningen</h2>
-<h3 id="oefening-1-begroeting">Oefening 1 – Begroeting</h3>
-<p>Vraag de naam van de gebruiker en toon een begroeting.</p>
-<h3 id="oefening-2-leeftijd">Oefening 2 – Leeftijd</h3>
-<p>Vraag de leeftijd en toon hoe oud de gebruiker volgend jaar is.</p>
-<h3 id="oefening-3-rekenmachine">Oefening 3 – Rekenmachine</h3>
-<p>Vraag twee getallen en toon:
-- de som
-- het verschil
-- het product</p>
-<h3 id="oefening-4-mini-toepassing">Oefening 4 – Mini-toepassing</h3>
-<p>Maak een programma dat:
-1. de naam vraagt
-2. het geboortejaar vraagt
-3. de leeftijd berekent
-4. een zin toont met f-string</p>
-<hr />
-<h2 id="310-samenvatting">3.10 Samenvatting</h2>
+<h1 id="310-debuggen-met-variabelen">3.10 Debuggen met variabelen</h1>
+<div class="admonition tip">
+<p class="admonition-title">Debuggen</p>
+<p>Als je code niet werkt zoals verwacht, kan je tussentijds variabelen afdrukken om te zien wat er misgaat.</p>
+</div>
+<p>Een veelvoorkomende oorzaak van functionele fouten in programma’s is dat variabelen
+blijken niet de waardes te bevatten waarvan je dacht dat ze ze bevatten. Een goede manier
+om je code te “debuggen” (dat wil zeggen, uit te vinden waar in je code fouten staan en
+die te verbeteren) is het printen van variabele namen op geschikte plaatsen. Bijvoorbeeld:</p>
+<p><div class="highlight"><pre><span></span><code><span class="n">nr1</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">nr2</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="n">nr3</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="nb">print</span><span class="p">(</span> <span class="n">nr3</span> <span class="o">/</span> <span class="p">(</span><span class="n">nr1</span> <span class="o">%</span> <span class="n">nr2</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">nr1</span> <span class="o">=</span> <span class="n">nr1</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span> <span class="n">nr3</span> <span class="o">/</span> <span class="p">(</span><span class="n">nr1</span> <span class="o">%</span> <span class="n">nr2</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">nr1</span> <span class="o">=</span> <span class="n">nr1</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span> <span class="n">nr3</span> <span class="o">/</span> <span class="p">(</span><span class="n">nr1</span> <span class="o">%</span> <span class="n">nr2</span><span class="p">)</span> <span class="p">)</span>
+<span class="n">nr1</span> <span class="o">=</span> <span class="n">nr1</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span> <span class="n">nr3</span> <span class="o">/</span> <span class="p">(</span><span class="n">nr1</span> <span class="o">%</span> <span class="n">nr2</span><span class="p">)</span> <span class="p">)</span>
+<span class="c1">## Dit programma veroorzaakt een foutmelding bij de vierde print-opdracht. Snap je waarom? Kopier deze code naar je Python-omgeving en voer het uit om het te testen.</span>
+</code></pre></div>
+Er zijn beter manieren om te debuggen, maar die zien we later in de cursus.</p>
+<h2 id="311-samenvatting">3.11 Samenvatting</h2>
 <div class="admonition summary">
 <p class="admonition-title">Summary</p>
 <ul>

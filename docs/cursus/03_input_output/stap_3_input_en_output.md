@@ -139,7 +139,7 @@ nr1 = nr1 + 1
 print( nr3 / (nr1 % nr2) )
 nr1 = nr1 + 1
 print( nr3 / (nr1 % nr2) )
-## Dit programma veroorzaakt een foutmelding bij de derde print-opdracht.
+## Dit programma veroorzaakt een foutmelding bij de vierde print-opdracht. Snap je waarom? Kopier deze code naar je Python-omgeving en voer het uit om het te testen.
 ```
 Er zijn beter manieren om te debuggen, maar die zien we later in de cursus.
 
