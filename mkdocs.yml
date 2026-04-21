@@ -1,5 +1,8 @@
 site_name: Python cursus
 site_url: https://HappySteltral.github.io/Cursus-Python/
+remote_name: cursus-python
+remote_branch: gh-pages
+
 theme:
   name: material
   language: nl
@@ -29,6 +32,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+
 
 # plugins:
 #   - search
