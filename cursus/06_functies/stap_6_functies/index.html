@@ -8,9 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://HappySteltral.github.io/Cursus-Python/cursus/07_functies/Hoofdstuk_6_Functies_Python/">
+        <link rel="canonical" href="https://HappySteltral.github.io/Cursus-Python/cursus/06_functies/stap_6_functies/">
       
       
+        <link rel="prev" href="../../05_lussen/stap_5_lussen/">
+      
+      
+        <link rel="next" href="../../../opgaven/python_basis/basis_oefeningen_stap_1_variabelen/">
       
       
         
@@ -21,7 +25,7 @@
     
     
       
-        <title>Hoofdstuk 6 -- Functies in Python - Python cursus</title>
+        <title>stap 6 Functies - Python cursus</title>
       
     
     
@@ -98,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hoofdstuk 6 -- Functies in Python
+              stap 6 Functies
             
           </span>
         </div>
@@ -218,18 +222,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -250,7 +256,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -396,6 +402,236 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stap 6 Functies
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    stap 6 Functies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhoudsopgave">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhoudsopgave
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wat-leer-je-in-dit-hoofdstuk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Wat leer je in dit hoofdstuk?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-waarom-functies-gebruiken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Waarom functies gebruiken?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-een-eerste-functie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Een eerste functie
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2️⃣ Een eerste functie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#structuur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Structuur
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#voorbeeld" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Voorbeeld
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#functie-oproepen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Functie oproepen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-functies-met-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Functies met parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-meerdere-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️⃣ Meerdere parameters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-returnwaarde" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Returnwaarde
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-print-vs-return" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️⃣ Print vs Return
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6️⃣ Print vs Return">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#met-print" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ❌ Met print
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#met-return" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Met return
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-lokale-en-globale-variabelen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️⃣ Lokale en globale variabelen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -642,6 +878,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../opgaven/python_basis/basis_oefeningen_stap_6_functies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Functies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -868,22 +1132,24 @@
 <hr />
 <h2 id="1-waarom-functies-gebruiken">1️⃣ Waarom functies gebruiken?</h2>
 <p>Stel dat je meerdere keren dezelfde berekening nodig hebt in je
-programma.\
-Zonder functies moet je telkens dezelfde code opnieuw schrijven.</p>
+programma. Zonder functies moet je telkens dezelfde code opnieuw schrijven.</p>
 <p>Dat is:</p>
 <ul>
-<li>❌ Onoverzichtelijk\</li>
-<li>❌ Gevoelig voor fouten\</li>
+<li>❌ Onoverzichtelijk</li>
+<li>❌ Gevoelig voor fouten</li>
 <li>❌ Moeilijk aan te passen</li>
 </ul>
 <p>Met functies kan je:</p>
 <ul>
-<li>✅ Code hergebruiken\</li>
-<li>✅ Je programma overzichtelijk maken\</li>
+<li>✅ Code hergebruiken</li>
+<li>✅ Je programma overzichtelijk maken</li>
 <li>✅ Grote problemen opsplitsen in kleine stukjes</li>
 </ul>
-<p>!!! note Een functie is een <strong>stukje code met een naam</strong> dat je kan
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Een functie is een <strong>stukje code met een naam</strong> dat je kan
 oproepen wanneer je het nodig hebt.</p>
+</div>
 <hr />
 <h2 id="2-een-eerste-functie">2️⃣ Een eerste functie</h2>
 <h3 id="structuur">🔹 Structuur</h3>
@@ -904,8 +1170,11 @@ oproepen wanneer je het nodig hebt.</p>
 
 <span class="n">begroet</span><span class="p">()</span>
 </code></pre></div>
-<p>!!! example Wat wordt er geprint als je <code>begroet()</code> drie keer onder
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Wat wordt er geprint als je <code>begroet()</code> drie keer onder
 elkaar zet?</p>
+</div>
 <hr />
 <h2 id="3-functies-met-parameters">3️⃣ Functies met parameters</h2>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">begroet</span><span class="p">(</span><span class="n">naam</span><span class="p">):</span>
@@ -915,10 +1184,10 @@ elkaar zet?</p>
 <div class="highlight"><pre><span></span><code><span class="n">begroet</span><span class="p">(</span><span class="s2">&quot;Nicky&quot;</span><span class="p">)</span>
 <span class="n">begroet</span><span class="p">(</span><span class="s2">&quot;Sarah&quot;</span><span class="p">)</span>
 </code></pre></div>
-<div class="admonition note een parameter is een variabele die tijdelijk bestaat binnen de">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
+<p>Een parameter is een variabele die tijdelijk bestaat binnen de functie.</p>
 </div>
-<p>functie.</p>
 <hr />
 <h2 id="4-meerdere-parameters">4️⃣ Meerdere parameters</h2>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">som</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
@@ -926,7 +1195,10 @@ elkaar zet?</p>
 
 <span class="n">som</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
 </code></pre></div>
-<p>!!! tip De volgorde van de parameters is belangrijk!</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>De volgorde van de parameters is belangrijk!</p>
+</div>
 <hr />
 <h2 id="5-returnwaarde">5️⃣ Returnwaarde</h2>
 <div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">som</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
@@ -936,8 +1208,11 @@ elkaar zet?</p>
 <div class="highlight"><pre><span></span><code><span class="n">resultaat</span> <span class="o">=</span> <span class="n">som</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">resultaat</span><span class="p">)</span>
 </code></pre></div>
-<p>!!! important <code>return</code> geeft een waarde terug en stopt onmiddellijk de
-functie.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p><code>return</code> geeft een waarde terug en stopt onmiddellijk de</p>
+</div>
+<p>functie.</p>
 <hr />
 <h2 id="6-print-vs-return">6️⃣ Print vs Return</h2>
 <h3 id="met-print">❌ Met print</h3>
@@ -956,23 +1231,12 @@ functie.</p>
 
 <span class="n">test</span><span class="p">()</span>
 </code></pre></div>
-<p>!!! warning Variabelen die in een functie gemaakt worden, bestaan alleen
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Variabelen die in een functie gemaakt worden, bestaan alleen
 binnen die functie.</p>
+</div>
 <hr />
-<h1 id="oefeningen">💻 Oefeningen</h1>
-<h2 id="oefening-1-vierkant-berekenen">Oefening 1 -- Vierkant berekenen</h2>
-<p>Schrijf een functie <code>vierkant(getal)</code> die het kwadraat teruggeeft.</p>
-<h2 id="oefening-2-celsius-naar-fahrenheit">Oefening 2 -- Celsius naar Fahrenheit</h2>
-<p>F = C * 9/5 + 32</p>
-<p>Maak een functie <code>naar_fahrenheit(celsius)</code>.</p>
-<h2 id="oefening-3-grootste-van-twee-getallen">Oefening 3 -- Grootste van twee getallen</h2>
-<p>Maak een functie <code>grootste(a, b)</code> die het grootste getal teruggeeft.</p>
-<h2 id="oefening-4-gemiddelde-van-drie-getallen">Oefening 4 -- Gemiddelde van drie getallen</h2>
-<p>Maak een functie die het gemiddelde teruggeeft van drie getallen.</p>
-<hr />
-<h2 id="uitdaging">🚀 Uitdaging</h2>
-<p>Maak een functie <code>is_even(getal)</code> die True teruggeeft als het getal even
-is.</p>
 
 
 
