@@ -15,6 +15,8 @@ nav:
     - Stap 3 Input en output: cursus/03_input_output/stap_3_input_en_output.md
     - Stap 4 Beslissingen: cursus/04_beslissingen/stap_4_beslissingen.md
     - Stap 5 Lussen: cursus/05_lussen/stap_5_lussen.md
+    - stap 6 Functies: cursus/06_functies/stap_6_functies.md
+    - Stap 7 Lijsten: cursus/07_lijsten/stap_7_lijsten.md
   - Opgavenbank:
     # - overzicht: opgaven/index.md
     - Python Basis:
@@ -23,6 +25,8 @@ nav:
       - Input en output : opgaven/python_basis/basis_oefeningen_stap_3_input_en_output.md
       - Beslissingen : opgaven/python_basis/basis_oefeningen_stap_4_beslissingen.md
       - Lussen : opgaven/python_basis/basis_oefeningen_stap_5_lussen.md
+      - Functies : opgaven/python_basis/basis_oefeningen_stap_6_functies.md
+      - lijsten : opgaven/python_basis/basis_oefeningen_stap_7_lijsten.md
     #  5 ICW:
     #       - Basis: opgaven/5ICW/basis.md
     # - 6 ICW:

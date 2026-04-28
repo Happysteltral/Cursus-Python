@@ -14,23 +14,23 @@
 ## 1️⃣ Waarom functies gebruiken?
 
 Stel dat je meerdere keren dezelfde berekening nodig hebt in je
-programma.\
-Zonder functies moet je telkens dezelfde code opnieuw schrijven.
+programma. Zonder functies moet je telkens dezelfde code opnieuw schrijven.
 
 Dat is:
 
--   ❌ Onoverzichtelijk\
--   ❌ Gevoelig voor fouten\
+-   ❌ Onoverzichtelijk
+-   ❌ Gevoelig voor fouten
 -   ❌ Moeilijk aan te passen
 
 Met functies kan je:
 
--   ✅ Code hergebruiken\
--   ✅ Je programma overzichtelijk maken\
+-   ✅ Code hergebruiken
+-   ✅ Je programma overzichtelijk maken
 -   ✅ Grote problemen opsplitsen in kleine stukjes
 
-!!! note Een functie is een **stukje code met een naam** dat je kan
-oproepen wanneer je het nodig hebt.
+!!! note
+    Een functie is een **stukje code met een naam** dat je kan
+    oproepen wanneer je het nodig hebt.
 
 ------------------------------------------------------------------------
 
@@ -67,8 +67,9 @@ def begroet():
 begroet()
 ```
 
-!!! example Wat wordt er geprint als je `begroet()` drie keer onder
-elkaar zet?
+!!! example 
+    Wat wordt er geprint als je `begroet()` drie keer onder
+    elkaar zet?
 
 ------------------------------------------------------------------------
 
@@ -86,8 +87,8 @@ begroet("Nicky")
 begroet("Sarah")
 ```
 
-!!! note Een parameter is een variabele die tijdelijk bestaat binnen de
-functie.
+!!! note 
+    Een parameter is een variabele die tijdelijk bestaat binnen de functie.
 
 ------------------------------------------------------------------------
 
@@ -100,7 +101,8 @@ def som(a, b):
 som(3, 5)
 ```
 
-!!! tip De volgorde van de parameters is belangrijk!
+!!! tip 
+    De volgorde van de parameters is belangrijk!
 
 ------------------------------------------------------------------------
 
@@ -118,7 +120,8 @@ resultaat = som(4, 6)
 print(resultaat)
 ```
 
-!!! important `return` geeft een waarde terug en stopt onmiddellijk de
+!!! important 
+    `return` geeft een waarde terug en stopt onmiddellijk de
 functie.
 
 ------------------------------------------------------------------------
@@ -151,34 +154,8 @@ def test():
 test()
 ```
 
-!!! warning Variabelen die in een functie gemaakt worden, bestaan alleen
-binnen die functie.
+!!! warning 
+    Variabelen die in een functie gemaakt worden, bestaan alleen
+    binnen die functie.
 
 ------------------------------------------------------------------------
-
-# 💻 Oefeningen
-
-## Oefening 1 -- Vierkant berekenen
-
-Schrijf een functie `vierkant(getal)` die het kwadraat teruggeeft.
-
-## Oefening 2 -- Celsius naar Fahrenheit
-
-F = C \* 9/5 + 32
-
-Maak een functie `naar_fahrenheit(celsius)`.
-
-## Oefening 3 -- Grootste van twee getallen
-
-Maak een functie `grootste(a, b)` die het grootste getal teruggeeft.
-
-## Oefening 4 -- Gemiddelde van drie getallen
-
-Maak een functie die het gemiddelde teruggeeft van drie getallen.
-
-------------------------------------------------------------------------
-
-## 🚀 Uitdaging
-
-Maak een functie `is_even(getal)` die True teruggeeft als het getal even
-is.
